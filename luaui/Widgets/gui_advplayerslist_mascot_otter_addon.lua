@@ -11,3 +11,16 @@ function widget:GetInfo()
 end
 
 requires("gui_advplayerslist_mascot")
+
+table.insert(OPTIONS, {
+	name				= "GrumpyCat",
+	body				= imageDirectory.."grumpycat_head.png",
+	head				= imageDirectory.."grumpycat_body.png",
+	headblink			= imageDirectory.."grumpycat_body.png",
+	santahat			= imageDirectory.."santahat.png",
+	imageSize			= 53,
+	xOffset				= -1.6,
+	yOffset				= -58/5,
+	head_xOffset		= 0,
+	head_yOffset		= 0,
+})
